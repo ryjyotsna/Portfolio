@@ -1,76 +1,108 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-</head>
-<body>
-    <div>
-        <h2>Jyotsna</h2>
-        <P>Beginner in coding</P>
-    </div>
+<!doctype html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+  </head>
 
-    <!-- navigation section -->
-      <nav>
+  <body>
+    <!-- Header -->
+    <section style="width: 100%; background: #f2f2f2; padding: 15px; text-align: center;">
+      <h1>Jyotsna Ray</h1>
+      <p>Beginner in coding</p>
+    </section>
+
+    <br />
+
+    <!-- Navigation -->
+    <section style="width: 100%; background: #ddd; padding: 10px; text-align: center;">
+      <a href="#about" style="margin: 0 40px;">About</a>
+      <a href="#skills" style="margin: 0 40px;">Skills</a>
+      <a href="#projects" style="margin: 0 40px;">Projects</a>
+      <a href="#contact" style="margin: 0 40px;">Contact</a>
+    </section>
+
+    <br /><br />
+
+    <!-- About Section -->
+    <section id="about" style="width: 80%; margin: auto; border: 1px solid black;">
+      <div style="background: #f2f2f2; padding: 15px; text-align: center; border-bottom: 1px solid black;">
+        <h2>About Me</h2>
+      </div>
+
+      <div style="display: flex;">
+        <div style="width: 30%; text-align: center; padding: 15px; border-right: 1px solid black;">
+          <img src="./photo1.jpg" alt="Profile Photo" width="30%" />
+        </div>
+
+        <div style="padding: 15px;">
+          <p>
+            Hello! I am <b>Jyotsna Ray</b>, a passionate web developer.
+          </p>
+          <p>
+            I am currently pursuing Btech CSE from AKGEC.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <br /><br />
+
+    <!-- Skills Section -->
+    <section id="skills" style="width: 80%; margin: auto; border: 1px solid black;">
+      <div style="background: #f2f2f2; padding: 15px; text-align: center; border-bottom: 1px solid black;">
+        <h2>Skills</h2>
+      </div>
+
+      <div style="padding: 15px;">
         <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <li>HTML, CSS, JavaScript</li>
         </ul>
-      </nav>
+      </div>
+    </section>
 
-      <!-- About me -->
-      <section id="about">
-        <h3><u>About Me</u></h3>
-        <div><p>Hey,I m Jyotsna Ray.I am currently pursuing Btech CSE from AKGEC.</p>
-        <img src="photo1.jpg" width="150" alt="photo"></div>
-      </section>
+    <br /><br />
 
-          <!-- Skills -->
-           <section id="Skills">
-            <h3><u>Skills</u></h3>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JS</li>
-            </ul>
-           </section>
+    <!-- Projects Section -->
+    <section id="projects" style="width: 80%; margin: auto; border: 1px solid black;">
+      <div style="background: #f2f2f2; padding: 15px; text-align: center; border-bottom: 1px solid black;">
+        <h2>Projects</h2>
+      </div>
 
-           <!-- Project -->
-            <section id="projects">
-              <h3><u>Projects</u></h3>
-             <div>
-                <h5>Portfolio</h5>
-              </div>
-             <p>Personal portfolio showcasing my projects, skills, and experience in web development and design. View my work and get in touch</p>
-             <div>
-              <h5>Blog Page</h5>
-             </div>
-             <p>Blog for tutorials, tips, and insights on web development, programming, and technology.</p>
-            </section>
+      <div style="display: flex;">
+        <div style="width: 30%; padding: 15px; border-right: 1px solid black;">
+          <b>Portfolio</b>
+        </div>
 
-            <!-- Contact -->
-             <section id="contact">
-              <h3><u>Contact</u></h3>
-              <p>
-                <a href="https://www.linkedin.com/in/jyotsna-ray-4a1323382/" target="_blank">LinkedIn</a><br>
-                <a href="mailto:jyotsnarayy@gmail.com">Gmail</a>
+        <div style="padding: 15px;">
+          Personal portfolio showcasing my projects, skills, and experience in web development and design.
+        </div>
+      </div>
+    </section>
 
-             </section>
+    <br /><br />
 
-             <!-- Footer -->
-              <footer>
-                <p>© 2026 Jyotsna Ray | All Rights Reserved</p>
-              </footer>
+    <!-- Contact Section -->
+    <section id="contact" style="width: 80%; margin: auto; border: 1px solid black;">
+      <div style="background: #f2f2f2; padding: 15px; text-align: center; border-bottom: 1px solid black;">
+        <h2>Contact Me</h2>
+      </div>
 
-             
+      <div style="padding: 15px;">
+        <p><b>Email:</b> jyotsnarayy@gmail.com</p>
+        <p>
+          <b>LinkedIn:</b>
+          <a href="https://www.linkedin.com/in/jyotsna-ray-4a1323382/" target="_blank">
+            https://www.linkedin.com/in/jyotsna-ray
+          </a>
+        </p>
+      </div>
+    </section>
 
+    <br /><br />
 
-      
-
-
-    
-</body>
+    <!-- Footer -->
+    <section style="width: 100%; background: #f2f2f2; padding: 10px; text-align: center;">
+      <p>© 2026 Jyotsna Ray | All Rights Reserved</p>
+    </section>
+  </body>
 </html>
